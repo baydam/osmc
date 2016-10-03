@@ -340,7 +340,7 @@ then
 	pushd project/cmake/addons/
 	mkdir build
 	cd build
-        ADDONS_ADSP="adsp.basic adsp.biquad.filters adsp.freesurround"
+        #ADDONS_ADSP="adsp.basic adsp.biquad.filters adsp.freesurround"
         ADDONS_AUDIO_DECODERS="audiodecoder.modplug audiodecoder.nosefart audiodecoder.sidplay audiodecoder.snesapu"
         ADDONS_AUDIO_ENCODERS="audioencoder.flac audioencoder.lame audioencoder.vorbis audioencoder.wav"
         ADDONS_INPUTSTREAM="inputstream.mpd"
